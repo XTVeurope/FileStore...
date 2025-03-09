@@ -10,13 +10,13 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7651139908:AAG319l-X-X6UyeGNaV3M0KJzNG5laEa5Hg")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7852845551:AAFydSW1to-k79GusJbKDvIjFGExbLFGMDU")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "27810925"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "04b5c9dd67d1e551ac2f62f25b2d1aad")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002413735959"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002334043283"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "xtveurope")
 #OWNER ID
@@ -49,7 +49,7 @@ TOKEN = True if os.environ.get('TOKEN', "False") == "True" else False
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.online")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "adabe1c0675be8ffc5ccbc84a9a65bc5a5d3ec69")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
 
 
@@ -61,8 +61,8 @@ ABOUT_TXT = "<b><blockquote>◈ Main Channel: <a href=https://t.me/xtveurope>�
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}\n\n ɪ ᴀᴍ 𝕏𝕋𝕍 ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ғɪʟᴇs.</b>")
 try:
-    ADMINS=[6820461647]
-    for x in (os.environ.get("ADMINS", "6820461647 1726298674").split()):
+    ADMINS=[]
+    for x in (os.environ.get("ADMINS", "").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
