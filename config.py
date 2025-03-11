@@ -10,13 +10,13 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7852845551:AAFydSW1to-k79GusJbKDvIjFGExbLFGMDU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7953135595:AAGOrdlcpr3ZMD4E5_y9ugVUlzNsZNxz2FM")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "27810925"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "04b5c9dd67d1e551ac2f62f25b2d1aad")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002334043283"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002492310563"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "xtveurope")
 #OWNER ID
@@ -28,7 +28,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://XTV:CLLEls0jF9DbITqi@clus
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "900"))
+TIME = int(os.environ.get("TIME", "600"))
 
 
 #force sub channel id, if you want enable force sub
